@@ -29,7 +29,7 @@ function Layout({ children, title }) {
         />
         <meta
           property="og:url"
-          content="https://sherifdeen-portfolio.vercel.app/"
+          content="https://adambroker.vercel.app/"
         />
         <link rel="icon" href="/ablogo.png" />
       </Head>
