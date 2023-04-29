@@ -11,7 +11,7 @@ function Contact() {
         <input type="email" name='email' className='mb-3 block w-full bg-transparent rounded-md py-2 px-2 border border-text1 mt-2' />
         <label htmlFor="" className=''>Message</label>
         <textarea name="message" className='block w-full bg-transparent rounded-md py-2 px-2 border border-text1 mt-2 h-24'></textarea>
-        <button type="" className='mt-5 px-5 py-2 bg-other1 rounded-md text-white'>Contact</button>
+        <button type="click" className='mt-5 px-5 py-2 bg-other1 rounded-md text-white'>Contact</button>
       </form>
     </div>
   )
