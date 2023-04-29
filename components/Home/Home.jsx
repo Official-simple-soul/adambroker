@@ -6,6 +6,14 @@ import StartUp from './StartUp'
 import EcoSystems from './EcoSystems'
 import Platform from './Platform'
 import Nfts from './Nfts'
+import PieChart from './Charts'
+import Contact from '../Contact'
+
+
+const data = [
+  { id: 1, subject: "English", size: 65 },
+  { id: 2, subject: "Physics", size: 35 },
+];
 
 function Home() {
   return (
@@ -20,6 +28,8 @@ function Home() {
       <Platform />
       <BgText inner={'MVP APPS'} outer={'NFTs'}/>
       <Nfts />
+      <PieChart data={data} />
+      <Contact />
     </div>
   )
 }

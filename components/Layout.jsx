@@ -5,6 +5,7 @@ import { useCallback } from 'react';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 import particleConfig from '../particle-config.json';
+import Footer from './Home/Footer';
 
 function Layout({ children, title }) {
   const particlesInit = useCallback(async (engine) => {
@@ -41,7 +42,8 @@ function Layout({ children, title }) {
           style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
         />
         <Header />
-        <main className="">{children}</main>
+        <main className="pb-12">{children}</main>
+        <Footer />
       </div>
     </>
   );
