@@ -30,7 +30,7 @@ function Layout({ children, title }) {
           property="og:url"
           content="https://sherifdeen-portfolio.vercel.app/"
         />
-        <link rel="icon" href="/A.png" />
+        <link rel="icon" href="/ablogo.png" />
       </Head>
       <div className="bg-priBG overflow-auto">
         <Particles
@@ -41,7 +41,7 @@ function Layout({ children, title }) {
           style={{ position: 'absolute', top: 0, left: 0, zIndex: 1 }}
         />
         <Header />
-        <main className="overflow-h-auto h-[100vh]">{children}</main>
+        <main className="">{children}</main>
       </div>
     </>
   );
