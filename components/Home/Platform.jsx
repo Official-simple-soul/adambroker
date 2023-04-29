@@ -98,10 +98,10 @@ function Platform() {
           ) : null}
         </div>
         <div className="lg:w-[50%] right relative flex justify-center items-center mb-6">
-          <div className="w-96 h-96 lg:w-[30rem] lg:h-[30rem] flex justify-center items-center  bg-transparent border-4 border-t-other1 border-l-gray-700 border-r-other1 border-b-other1 rounded-full animate-spin-slow">
-            <div className="w-80 h-80 lg:w-[25rem] lg:h-[25rem] bg-transparent border-4 border-t-other1 border-r-other1 border-b-other1 border-l-gray-700 rounded-full animate-spin-slow"></div>
+          <div className="w-80 h-80 lg:w-[30rem] lg:h-[30rem] flex justify-center items-center  bg-transparent border-4 border-t-other1 border-l-gray-700 border-r-other1 border-b-other1 rounded-full animate-spin-slow">
+            <div className="w-64 h-64 lg:w-[25rem] lg:h-[25rem] bg-transparent border-4 border-t-other1 border-r-other1 border-b-other1 border-l-gray-700 rounded-full animate-spin-slow"></div>
           </div>
-          <div className="absolute w-[90%] lg:w-[65%] h-[60%] lg:h-[50%]">
+          <div className="absolute w-[86%] lg:w-[65%] h-[60%] lg:h-[50%]">
             <Image src={'/mages/platform-wide.png'} alt="" fill />
           </div>
         </div>

@@ -9,7 +9,7 @@ function Nfts() {
         Our project is based on an existing challenges.
       </h1>
       <div className="flex flex-col lg:flex-row justify-center lg:space-x-20 items-center mb-3">
-        <div className="lg:w-[50%] right relative  mb-16 lg:mb-6">
+        <div className="lg:w-[50%] right relative  mb-16 lg:mb-6 w-[90%]">
           <div className="relative w-80 lg:w-[500px] h-48 lg:h-80">
             <Image src={'/mages/nft-1.png'} alt="" fill />
           </div>
