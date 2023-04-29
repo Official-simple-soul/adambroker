@@ -32,7 +32,7 @@ function Layout({ children, title }) {
         />
         <link rel="icon" href="/ablogo.png" />
       </Head>
-      <div className="bg-priBG overflow-auto">
+      <div className="bg-priBG overflow-hidden">
         <Particles
           id="tsparticles"
           options={particleConfig}

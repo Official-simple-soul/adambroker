@@ -33,8 +33,8 @@ function Header() {
 
   return (
     <header
-      className={`py-3 lg:py-0 fixed w-full z-40`}
-      style={{ backgroundColor: headerBgColor }}
+      className={`py-3 lg:py-0 fixed w-full z-40 bg-priBG shadow-md`}
+      // style={{ backgroundColor: headerBgColor }}
     >
       <div className=" lg:w-[90%] px-4 lg:px-0 mx-auto flex justify-between items-center">
         <div className="logo font-bold">
