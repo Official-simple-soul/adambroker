@@ -4,7 +4,7 @@ import HomeScreen from '../../components/Home/Home';
 
 export default function Home() {
   return (
-    <main>
+    <main className="text-white">
       <HomeScreen />
     </main>
   );
