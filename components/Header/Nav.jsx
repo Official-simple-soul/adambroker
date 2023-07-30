@@ -18,7 +18,7 @@ function Nav({ showNav, setShowNav }) {
   return (
     <nav>
       <ul
-        className={`absolute lg:static ${
+        className={`absolute text-white lg:static ${
           showNav ? 'left-0' : '-left-96'
         } top-0 py-8 lg:py-6 h-screen lg:h-auto w-64 lg:w-auto bg-navBG lg:bg-transparent lg:flex md:space-x-5 items-center transition-all ease-in-out duration-500`}
       >
